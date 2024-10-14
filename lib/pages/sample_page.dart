@@ -9,7 +9,7 @@ class SamplePage extends StatefulWidget {
 
 class _SamplePageState extends State<SamplePage> {
   bool _toggle = false;
-  bool _button = false;
+
   final List<DropdownMenuItem> items = [
     const DropdownMenuItem(
       value: '1',
